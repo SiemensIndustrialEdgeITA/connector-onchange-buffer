@@ -200,7 +200,7 @@ Example data of plc1 datasource from S7 Connector with onchange mode:
         "id": "103",
         "qc": 3,
         "ts": "2022-01-05T13:40:28.482Z",
-        "val": false
+        "val": 0
       }
     ]
   },
@@ -219,16 +219,19 @@ Example data of plc1 datasource from Connector OnChange Buffer App:
     "vals": [
       {
         "name": "motorCurrent",
+        "id": "101",
         "val": 96.8632780674959,
         "ts": "2022-01-05T13:40:29.127Z"
       },
       {
         "name": "motorTorque",
+        "id": "102",
         "val": 213.90432818014432,
         "ts": "2022-01-05T13:40:29.127Z"
       },
       {
         "name": "motorEnabled",
+        "id": "103",
         "val": 0,
         "ts": "2022-01-05T13:40:29.127Z"
       }
