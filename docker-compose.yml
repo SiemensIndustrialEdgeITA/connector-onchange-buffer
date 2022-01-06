@@ -1,0 +1,20 @@
+version: '2.4'
+
+services:
+  connector-onchange-buffer:
+    container_name: connector-onchange-buffer
+    hostname: connector-onchange-buffer
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: connector-onchange-buffer:0.0.3
+    restart: always
+    volumes:
+      - ./cfg-data/:/cfg-data/
+    networks:
+      - proxy-redirect
+    mem_limit: "300mb"
+
+networks:
+  proxy-redirect:
+    name: proxy-redirect

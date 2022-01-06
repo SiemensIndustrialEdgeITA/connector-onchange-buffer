@@ -1,0 +1,17 @@
+{
+  "name": "connector-onchange-buffer",
+  "version": "0.0.1",
+  "description": " NodeJS app that buffers all tags changes from a connector and sends all the tags values toghether in one MQTT message",  
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-mqtt": "^2.6.1",
+    "auto-bind": "^5.0.1"
+  }
+}

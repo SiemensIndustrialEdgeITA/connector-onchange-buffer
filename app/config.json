@@ -1,0 +1,9 @@
+{
+    "brokerAddress": "ie-databus",
+    "brokerPort": "1883",
+    "username": "edge",
+    "password": "edge",
+    "metadataTopic": "ie/m/j/simatic/v1/s7c1/dp",
+    "publishTopic": "ie/d/j/buffer/v1/s7c1/dp/r",
+    "publishTimeMs": 1000
+}
